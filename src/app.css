@@ -1,0 +1,22 @@
+/*
+ * Part of the AC-Portal project.
+ * Copyright (c) 2026 Academic Center of PSHS-CVisC in Cebu
+ * All rights reserved.
+ */
+ 
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms' {
+  /* Configure the forms plugin to use 'class' strategy */
+  strategy: 'class';
+}
+@plugin "daisyui" {
+  themes: retro --default, coffee --prefersdark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: sans-serif;
+}
