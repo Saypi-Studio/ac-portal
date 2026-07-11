@@ -29,11 +29,6 @@ const config = {
         'font-src': ['self', 'data:'],
         'frame-src': ['self', 'https://vercel.live'],
       },
-      reportOnly: {
-        'script-src': ['self', 'https://vercel.live'],
-        'script-src-elem': ['self', 'https://va.vercel-scripts.com'],
-        'img-src': ['self', 'data:', 'https:'],
-      }
     },
 		typescript: {
 			config: (config) => ({
